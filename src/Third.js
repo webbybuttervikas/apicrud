@@ -133,7 +133,15 @@ const Third = () => {
               setLastname(e.target.value);
             }}
           ></input>
-
+          <h5>Image</h5>
+          <input
+            type="text"
+            lastname="lastname"
+            value={lastName}
+            onChange={(e) => {
+              setLastname(e.target.value);
+            }}
+          ></input>
           <br />
         </div>
         {/* <h5>Email</h5> */}
